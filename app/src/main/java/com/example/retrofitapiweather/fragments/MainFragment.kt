@@ -56,6 +56,10 @@ class MainFragment : Fragment() {
             }
         }
 
+        binding.detailsActivityExitButtonBTN.setOnClickListener {
+            requireActivity().finishAffinity()
+        }
+
 
         binding.mainFragmentStartButtonBTN.setOnClickListener {
 

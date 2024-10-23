@@ -26,14 +26,6 @@
             android:background="@null"
             android:layout_marginEnd="8dp"/>
 
-        <ImageButton
-            android:id="@+id/detailsActivityBackButtonBTN"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="end"
-            android:src="@drawable/ic_back_24"
-            android:background="@null"
-            android:layout_marginEnd="8dp"/>
 
 
 

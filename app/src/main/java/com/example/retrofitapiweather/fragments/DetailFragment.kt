@@ -36,6 +36,9 @@ class DetailFragment : Fragment() {
         binding = FragmentDetailBinding.inflate(inflater, container, false)
         position = arguments?.getString("position")
 
+        binding.detailsActivityExitButtonBTN.setOnClickListener {
+            requireActivity().finishAffinity() }
+
         getCurrentWeather()
 
         return binding.root
